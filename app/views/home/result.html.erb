@@ -1,0 +1,6 @@
+<h1 ><%= @name %>와(과) 어울리는 연예인은</h1>
+
+<h2>
+    <% if @gender == 'female' %> <%= @celebrity1 %>야(이야) 축하한다
+    <% elsif @gender == 'male' %> <%= @celebrity2 %>야(이야) 축하한다 <% end %>
+</h2>
